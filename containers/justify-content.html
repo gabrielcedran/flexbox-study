@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Complete Flexbox Course by Peter</title>
+    <link rel="stylesheet" href="../css/base.css">
+  </head>
+  <body>
+    <section class="container container1">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </section>
+    <section class="container container2">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </section>
+    <section class="container container3">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </section>
+  </body>
+  <style>
+    .container1 {
+      display: flex;
+      border: 1px solid white;
+      flex-direction: row;
+      justify-content: flex-end;
+    }    
+
+    .container2 {
+      display: flex;
+      border: 1px solid white;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }    
+
+    .container3 {
+      display: flex;
+      border: 1px solid white;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+    }    
+  </style>
+</html>
